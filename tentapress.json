@@ -2,8 +2,10 @@
     "type": "theme",
     "id": "tentapress/bootstrap",
     "name": "Bootstrap Theme",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A Bootstrap v5 theme for TentaPress.",
+    "provider": "TentaPress\\Themes\\Bootstrap\\BootstrapThemeServiceProvider",
+    "provider_path": "src/BootstrapThemeServiceProvider.php",
     "layouts": [
         { "key": "default", "label": "Default" },
         { "key": "landing", "label": "Landing" }

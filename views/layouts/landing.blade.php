@@ -5,10 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         @include('tentapress-seo::head', ['page' => $page])
 
-        @php
-            \Illuminate\Support\Facades\Vite::useHotFile(public_path('themes/tentapress/bootstrap/hot'));
-        @endphp
-
         @vite(['resources/css/theme.css', 'resources/js/theme.js'], 'themes/tentapress/bootstrap/build')
     </head>
     <body>
